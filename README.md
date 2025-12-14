@@ -39,4 +39,4 @@ This project demonstrates CRUD operations, state management with Hooks, and pers
 
 ---
 
-Developed by [Senin Adın]
+Developed by [Eren Tüzün]
