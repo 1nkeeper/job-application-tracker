@@ -1,16 +1,42 @@
-# React + Vite
+# 🚀 Job Application Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern dashboard to track job applications, built with **React** and **LocalStorage**.
+This project demonstrates CRUD operations, state management with Hooks, and persistent data storage without a backend.
 
-Currently, two official plugins are available:
+## 🌟 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Add Applications:** Log new job applications with company name, position, and status.
+- **Status Management:** Update application status (Applied, Interviewing, Offer, Rejected).
+- **Persistent Data:** Uses a custom `useLocalStorage` hook to save data in the browser. Data remains even after refresh.
+- **Visual Indicators:** Dynamic color coding based on application status.
+- **Delete Entries:** Remove outdated or unwanted applications.
 
-## React Compiler
+## 🛠️ Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **React** (Vite)
+- **React Hooks** (useState, useEffect, Custom Hooks)
+- **UUID** (For unique ID generation)
+- **CSS3** (Responsive & Clean UI)
 
-## Expanding the ESLint configuration
+## 📦 How to Run Locally
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1.  Clone the repository:
+    ```bash
+    git clone [https://github.com/KULLANICI_ADIN/job-application-tracker.git](https://github.com/KULLANICI_ADIN/job-application-tracker.git)
+    ```
+2.  Navigate to the project folder:
+    ```bash
+    cd job-application-tracker
+    ```
+3.  Install dependencies:
+    ```bash
+    npm install
+    ```
+4.  Start the development server:
+    ```bash
+    npm run dev
+    ```
+
+---
+
+Developed by [Senin Adın]
